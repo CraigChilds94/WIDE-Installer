@@ -1,0 +1,18 @@
+#!/bin/bash
+
+###################
+# WIDE Executor   #
+# by Craig Childs #
+###################
+
+# This script assumes WIDE is located
+# inside of ~/Applications and in a
+# directory called 'wide'
+
+# Keep track of folder we're storing
+# WIDE in
+location=~/Applications/wide
+
+# Run the run file
+cd "$location"
+./run_ux

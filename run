@@ -1,0 +1,36 @@
+#!/bin/bash
+
+###################
+# WIDE Installer  #
+# by Craig Childs #
+###################
+
+# The zip location for WIDE
+url=http://www2.mta.ac.il/~tal/WIDE/wide.zip
+
+# Where we store binary files
+bin=/usr/local/bin
+
+# where are we storing WIDE?
+location=~/Applications
+
+# Download the zip and extract to
+# directory called "wide"
+if [ ! -f "wide.zip" ]; then
+    curl "$url" -o "wide.zip"
+fi
+if [ ! -d "wide" ]; then
+    unzip wide.zip -d wide
+fi
+
+# Ensure the file is runnable
+cd wide
+sudo chmod +x run_ux
+cd ../
+
+# Move the IDE to location directory
+cp -R wide "$location"
+
+# Move executor to bin
+cp wide_run "$bin"
+sudo chmod +x "$bin"/wide_run
