@@ -6,10 +6,10 @@ Please not this is configured for Mac, if you're using Linux please see [here](#
 
 ## How to use
  - Download the [.zip file from this repository](https://github.com/CraigChilds94/WIDE-Installer/archive/master.zip) and unzip it
- - Open terminal, type `cd unzipped_folder_name`
+ - Open the terminal, change directory to the folder by typing `cd ~/Downloads/WIDE-Installer-master`
  - Make this executable by typing `sudo chmod +x run`
  - Then run it by typing `./run`
- - Once finished you should now be able start the IDE by typing `wide_run`
+ - Once the process has finished you should now be able start the IDE by typing `wide_run`
 
 ## Linux Confiuguration
 The folder used to store the IDE on the mac is `~/Applications`, please modify the two scripts in this repository as you require. The variables you'll be needing to change are called `location`. Just change this to a suitable path.
