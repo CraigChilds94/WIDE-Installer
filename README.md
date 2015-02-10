@@ -11,7 +11,7 @@ Please not this is configured for Mac, if you're using Linux please see [here](#
  - Then run it by typing `./run`
  - Once the process has finished you should now be able start the IDE by typing `wide_run`
 
-## Linux Confiuguration
+## Linux Configuration
 The folder used to store the IDE on the mac is `~/Applications`, please modify the two scripts in this repository as you require. The variables you'll be needing to change are called `location`. Just change this to a suitable path.
 
 ## How it works
