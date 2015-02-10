@@ -2,7 +2,7 @@
 ## For Linux & Mac
 #### By Craig Childs
 
-Please not this is configured for Mac, if you're using Linux please see [here](#LinuxConfiguration).
+Please not this is configured for Mac, if you're using Linux please see [here](#linux-configuration).
 
 ## How to use
  - Download the .zip file from this repository and unzip it
