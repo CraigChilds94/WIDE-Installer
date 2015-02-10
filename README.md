@@ -5,7 +5,7 @@
 Please not this is configured for Mac, if you're using Linux please see [here](#linux-configuration).
 
 ## How to use
- - Download the .zip file from this repository and unzip it
+ - Download the [.zip file from this repository](https://github.com/CraigChilds94/WIDE-Installer/archive/master.zip) and unzip it
  - Open terminal, type `cd unzipped_folder_name`
  - Make this executable by typing `sudo chmod +x run`
  - Then run it by typing `./run`
